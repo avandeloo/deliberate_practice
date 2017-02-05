@@ -1,0 +1,19 @@
+Rails.application.routes.draw do
+  get '/' => 'books#index'
+  get '/books' => 'books#index'
+
+  get '/books/new' => 'books#new'
+  post '/books' => 'books#create'
+
+  get '/books/:id' => 'books#show'
+
+  get '/books/:id/edit' => 'books#edit'
+  put '/books/:id' => 'books#update'
+
+  delete '/books/:id' => 'books#destroy'
+
+
+
+
+
+end

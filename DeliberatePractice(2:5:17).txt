@@ -1,0 +1,11 @@
+Find a new Ruby method, make it work, make it break
+
+- Hash Methods: transform_value, reject
+
+Find a computer science algorithm, make it work, make it break.
+
+- Algorithms: Binary Search, Towers of Hanoi
+
+Create a CRUD app with RESTful routes.
+
+- Library App
